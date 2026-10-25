@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Amiri', 'Playfair Display', serif;
+}
+
+/* Custom delicate pink glass and scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F4BAC9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E88CA4;
+}
